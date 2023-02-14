@@ -1,0 +1,15 @@
+[package]
+name = "aoc-intcode"
+version = "0.1.0"
+edition = "2018"
+
+
+[lib]
+name = "aoc_intcode"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "intcode"
+path = "src/bin/main.rs"
+
+[dependencies]
